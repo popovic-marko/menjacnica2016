@@ -57,9 +57,9 @@ public class GUIKontroler {
 
 	public static void prikaziObrisiKursGUI(Valuta v) {
 		valutaBrisanje = v;
-		ObrisiKursGUI prozor = new ObrisiKursGUI();
-		prozor.setLocationRelativeTo(menjacnicaProzor.getContentPane());
-		prozor.setVisible(true);
+		obrsiKursProzor = new ObrisiKursGUI();
+		obrsiKursProzor.setLocationRelativeTo(menjacnicaProzor.getContentPane());
+		obrsiKursProzor.setVisible(true);
 	}
 
 	public static void prikaziIzvrsiZamenuGUI(Valuta v){

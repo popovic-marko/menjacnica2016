@@ -221,11 +221,11 @@ public class ObrisiKursGUI extends JFrame {
 	private void prikaziValutu() {
 		String[] podaci = GUIKontroler.prikaziValutu();
 		
-		textFieldNaziv.setText(podaci[1]);
-		textFieldSkraceniNaziv.setText(podaci[2]);
-		textFieldSifra.setText(podaci[3]);
-		textFieldProdajniKurs.setText(podaci[4]);
-		textFieldKupovniKurs.setText(podaci[5]);
-		textFieldSrednjiKurs.setText(podaci[6]);				
+		textFieldNaziv.setText(podaci[0]);
+		textFieldSkraceniNaziv.setText(podaci[1]);
+		textFieldSifra.setText(podaci[2]);
+		textFieldProdajniKurs.setText(podaci[3]);
+		textFieldKupovniKurs.setText(podaci[4]);
+		textFieldSrednjiKurs.setText(podaci[5]);				
 	}
 }
