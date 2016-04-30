@@ -48,6 +48,4 @@ public class Menjacnica implements MenjacnicaInterface{
 	public void sacuvajUFajl(String putanja) {
 		SOSacuvajUFajl.izvrsi(putanja, kursnaLista);
 	}
-
-	
 }
