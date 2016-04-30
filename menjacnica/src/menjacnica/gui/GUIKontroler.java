@@ -64,7 +64,7 @@ public class GUIKontroler {
 
 	public static void prikaziIzvrsiZamenuGUI(Valuta v){
 		valutaIzmena = v;
-		izvrsiZamenuProzor = new IzvrsiZamenuGUI(menjacnicaProzor, v);
+		izvrsiZamenuProzor = new IzvrsiZamenuGUI();
 		izvrsiZamenuProzor.setLocationRelativeTo(menjacnicaProzor.getContentPane());
 		izvrsiZamenuProzor.setVisible(true);
 	}
